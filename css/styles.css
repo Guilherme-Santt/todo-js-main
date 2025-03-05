@@ -15,8 +15,8 @@ body {
 
 button {
   background-color: #fdfdfd;
-  color: #102f5e;
-  border: 2px solid #a697c0;
+  color: rgba(177, 177, 177, 0.467);
+  border: 2px solid rgba(8, 104, 194, 0.467);
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-  background-color: #102f5e;
+  background-color: rgba(8, 104, 194, 0.467);
 }
 
 button:hover > i {
@@ -36,7 +36,7 @@ button:hover > i {
 
 button i {
   pointer-events: none;
-  color: #102f5e;
+  color: rgba(8, 104, 194, 0.467);
   font-weight: bold;
 }
 
@@ -150,7 +150,7 @@ select {
 }
 
 .done {
-  background: #395169;
+  background: #7090d4;
 }
 
 .done h3 {
